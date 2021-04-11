@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/outputName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="200dp"
+                android:text="Congratulations!"
+                android:textSize="30sp"
+                android:layout_marginLeft="14dp">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YOUR SCORE:"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginLeft="129dp"
+                android:layout_marginTop="40dp">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/finalScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:text="2/2"
+                android:layout_marginLeft="171sp"
+                android:layout_marginTop="1dp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/newQuiz_button"
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="80dp"
+                android:text="Take New Quiz"
+                android:textAllCaps="false"
+                android:textColor="#0E0E0E"
+                android:textSize="30dp"
+                android:onClick="newQuiz"
+                app:backgroundTint="#CDCACA"
+                app:cornerRadius="12dp"
+                app:rippleColor="#100F0F"
+                app:strokeColor="#151414"
+                app:strokeWidth="1dp"></Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/finish_button"
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="20dp"
+                android:text="Finish"
+                android:textAllCaps="false"
+                android:textColor="#0E0E0E"
+                android:textSize="30dp"
+                android:onClick="finish"
+                app:backgroundTint="#CDCACA"
+                app:cornerRadius="12dp"
+                app:rippleColor="#100F0F"
+                app:strokeColor="#151414"
+                app:strokeWidth="1dp"></Button>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
