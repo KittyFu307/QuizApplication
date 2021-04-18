@@ -27,9 +27,7 @@ public class FinalQuiz extends AppCompatActivity {
     }
 
     public void finish(View view){
-        Intent intentto = new Intent(this,MainActivity.class);
-        intentto.putExtra("finish","finish");
-        startActivity(intentto);
+        finishAffinity();
     }
 
 }
